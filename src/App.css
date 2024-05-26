@@ -1,0 +1,80 @@
+/* App.css */
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://i.pinimg.com/564x/2a/f0/06/2af00622e39eb9f7866e67fe0ba2a948.jpg);
+  background-repeat: no-repeat; /* Mencegah gambar diulang */
+  background-size: cover; /* Memperbesar gambar untuk menutupi seluruh area */
+  background-position: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.paper {
+  background-image: url(https://i.pinimg.com/564x/3e/7c/87/3e7c875effe6144205314badda81db54.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 1rem;
+  padding: 5px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+
+.paper:hover {
+  transform: scale(1.05);
+}
+
+.paper img {
+  height: 100px;
+  object-fit: cover;
+  width: 100px;
+}
+
+.paper h2 {
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.paper p {
+  color: #f0e9e9;
+  font-size: 1rem;
+  margin: 0.5rem 0 0;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 10px;
+  color: #ddd;
+}
+@media (max-width: 768px) {
+  .paper {
+    width: 100%;
+  }
+}
