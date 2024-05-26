@@ -10,7 +10,7 @@ export const planet = [
     {id : 8, name : "Neptunus", distance : "4.500 juta km", image : "https://statik.tempo.co/data/2022/06/28/id_1121039/1121039_720.jpg"}
   ];
 
-export const myname = "Jamilah";
+export const myname = "Nur Jamilah";
 
 export default function Nur(){
     return(
